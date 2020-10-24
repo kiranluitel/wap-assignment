@@ -1,0 +1,95 @@
+body{
+    font-family: "Work Sans", sans-serif;
+}
+.image{
+    text-align: left;
+}
+._passport_size_photo {
+    height: 400px;
+    width: auto;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #fcb800;
+    height: 3rem;
+
+}
+.navbar .navbar-menu{
+    text-align: right;
+}
+.navbar .navbar-item{
+    color: #000;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand{
+    text-align: left;
+    margin-right: 50rem;
+    margin-left:5rem;
+}
+
+
+.navbar .navbar-item:hover {
+    color: red;
+}
+
+.navbar .navbar-brand .navbar-item:hover{
+    color:yellow;
+}
+
+.space{
+    height: 1rem;
+}
+.icon_image{
+    height:2rem;
+    width: 2rem;
+}
+
+.title_paragraph{
+    font-size: 1rem;
+    text-align: justify;
+
+}
+.container{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-width: 1rem;
+    background-color: #f5f5f5;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.outer_border{
+    border:solid;
+    border-color: #fcb800;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.grid-item .grid-image{
+    width: 20rem;
+    height:auto;
+}
+h2{
+    font-size: 36px;
+    color: #000;
+    font-weight: 400;
+}
+.styledfont{
+    font-size: 18px;
+    line-height: 1.6em;
+}
