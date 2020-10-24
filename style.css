@@ -94,3 +94,17 @@ h2{
     line-height: 1.6em;
     color:#666;
 }
+a{
+    color:green;
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+}
+.movie-description-header{
+    color:orange;
+    font-weight: bold;
+}
+.movie-description-body{
+    color:green;
+}
