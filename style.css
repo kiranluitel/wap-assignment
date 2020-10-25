@@ -72,7 +72,6 @@ body{
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    background-color: #2196F3;
     padding: 10px;
 }
 .grid-item {
@@ -81,6 +80,12 @@ body{
     padding: 20px;
     font-size: 30px;
     text-align: center;
+}
+.grid-item.left{
+    float: left;
+}
+.grid-item.right{
+    float: right;
 }
 .grid-item .grid-image{
     width: 20rem;
@@ -110,36 +115,6 @@ a:hover{
 .movie-description-body{
     color:green;
 }
-/* 
-.navbar-expand{
-    display: inline;
-    position: relative;
-}
-.navbar-expand-item{
-    display: block;
-
-}
-
-.navbar-expand-item.navbar-expand-item--1{
-    display: inline;
-
-}
-
-.navbar-expand-item--2{
-    position: absolute;
-    top:100%;
-    left:0%;
-    background-color: #fcb800;
-}
-
-.navbar-expand-item:hover {
-    display: block;
-
-}
-/* .navbar-expand-item .navbar-expand-item--1:hover{
-    display: inline;
-
-} */
 
 .navbar-expand {
     display: inline;
@@ -169,6 +144,7 @@ a:hover{
             color: white;
             border: solid;
             border-color: #fcb800;
+            z-index: 3;
          }
         
         

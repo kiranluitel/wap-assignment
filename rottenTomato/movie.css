@@ -1,0 +1,130 @@
+body{
+    font-family: "Work Sans", sans-serif;
+}
+.image{
+    text-align: left;
+}
+._passport_size_photo {
+    height: 400px;
+    width: auto;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #fcb800;
+    height: 3rem;
+
+}
+.navbar .navbar-menu{
+    text-align: right;
+    display: inline;
+}
+.navbar .navbar-item{
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-decoration: none;
+    display: inline;
+}
+
+.navbar .navbar-brand{
+    text-align: left;
+    margin-right: 40rem;
+    margin-left:5rem;
+}
+
+
+.navbar .navbar-item:hover {
+    color: red;
+}
+
+.navbar .navbar-brand .navbar-item:hover{
+    color:yellow;
+}
+
+.space{
+    height: 1rem;
+}
+.icon_image{
+    height:2rem;
+    width: 2rem;
+}
+
+.banner{
+    margin:0px 0px 0px 0px;
+}
+.banner .banner__image{
+    
+width: 102%;
+z-index: 1;
+    
+}
+
+.primary__header{
+    text-align: center;
+    font-family: Tahoma , Verdana, sans-serif;
+    font-size: 24pt;
+    text-shadow: #999999 3px 3px;
+    
+}
+ .rotten__container{
+    background-image: url("./background.png");
+    background-position: 50% 50%;
+    position: relative;
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin-top: 0rem;
+    margin-left: -0.5rem;
+    
+    width: 102%;
+}
+.grid-container{
+    
+}
+
+.row{
+    max-width:114rem;
+    margin: 0 auto;
+}
+
+.row.col{
+    width:55rem;
+    float: left;
+}
+.row.col:not(:last-child){
+    margin-right: 4rem;
+}
+/* .row.col-2{
+    width:55rem;
+    float: right;
+} */
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    width:60%;
+    margin-left: 15rem;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.grid-item-col{
+    display: inline;
+}
+
+.header__gif{
+    background: url(./rbg.png);
+    margin-top: -1px;
+}
+
+.header__gif.gif{
+    width: 2rem;
+    height: auto;
+
+}
