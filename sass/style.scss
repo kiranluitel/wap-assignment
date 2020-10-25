@@ -1,0 +1,29 @@
+
+.navbar-expand{
+
+    display: inline;
+    position: relative;
+    &-item{
+        display: block;
+
+        &--1{
+            display: inline;
+        }
+
+        &--2{
+            display: none;
+            position: absolute;
+            top:100%;
+            left:0%;
+            background-color: #fcb800;
+
+
+        }
+
+
+    }
+
+    &:hover &-item:not(:hover){
+        display: block;
+    }
+}

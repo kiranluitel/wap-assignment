@@ -17,17 +17,19 @@ body{
 }
 .navbar .navbar-menu{
     text-align: right;
+    display: inline;
 }
 .navbar .navbar-item{
-    color: #000;
+    color: white;
     margin-left: 2rem;
     margin-right: 2rem;
     text-decoration: none;
+    display: inline;
 }
 
 .navbar .navbar-brand{
     text-align: left;
-    margin-right: 50rem;
+    margin-right: 40rem;
     margin-left:5rem;
 }
 
@@ -108,3 +110,79 @@ a:hover{
 .movie-description-body{
     color:green;
 }
+/* 
+.navbar-expand{
+    display: inline;
+    position: relative;
+}
+.navbar-expand-item{
+    display: block;
+
+}
+
+.navbar-expand-item.navbar-expand-item--1{
+    display: inline;
+
+}
+
+.navbar-expand-item--2{
+    position: absolute;
+    top:100%;
+    left:0%;
+    background-color: #fcb800;
+}
+
+.navbar-expand-item:hover {
+    display: block;
+
+}
+/* .navbar-expand-item .navbar-expand-item--1:hover{
+    display: inline;
+
+} */
+
+.navbar-expand {
+    display: inline;
+    position: relative; 
+}
+    .navbar-expand-item {
+      display: block; 
+      
+    }
+
+      
+      .navbar-expand-item--1 {
+        display: inline;
+        color: white; }
+      .navbar-expand-item--2 {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0%;
+        background-color: #fcb800;
+         }
+         .navbar-expand-menu-item{
+            margin-top: 1rem;
+            margin-left:1rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            color: white;
+            border: solid;
+            border-color: #fcb800;
+         }
+        
+        
+    .navbar-expand:hover .navbar-expand-item--2 {
+      display: inline-block;
+    }
+
+    .navbar-expand:hover .navbar-expand-menu-item:hover{
+        border: solid;
+        border-color: white;
+        border-radius: 1rem;
+
+      }
+      .navbar-expand:hover .navbar-expand-menu-item a{
+        color:white;
+
+      }

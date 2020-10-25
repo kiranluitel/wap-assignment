@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiranluitel/wap-assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiranluitel/wap-assignment/issues"
+  },
+  "homepage": "https://github.com/kiranluitel/wap-assignment#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
