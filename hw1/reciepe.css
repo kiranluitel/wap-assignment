@@ -1,0 +1,106 @@
+
+  
+body {
+  background-color: #fff;
+  background-image: url('http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/1/silverware.jpg');
+  background-attachment: fixed;
+  background-repeat: repeat;
+  color: #404040;
+  font-size: 11pt;
+  font-family: Georgia, Garamond, serif;
+}
+a {
+  color: #A4A400;
+}
+h1, h2 {
+  background-color: #F0F0F0;
+  color: #A4A400;
+  font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+  text-decoration: underline;
+}
+h1 {
+  font-size: 22pt;
+  font-weight: bold;
+  text-align: center;
+}
+h2 {
+  font-size: 18pt;
+  font-weight: normal;
+  text-align: left;
+  text-transform: uppercase;
+}
+.container .contents .recipe_intro ul {
+  /* Make a list look like normal text, with each item on its own line */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 1em;
+}
+.container .contents .recipe_intro ul li {
+  margin: 0;
+  padding: 0;
+}
+.container .contents .ingredients ul {
+  list-style-image: url('http://www.cs.washington.edu/education/courses/cse190m/09sp/homework/1/pie_icon.gif');
+}
+.container .contents .directions ol li strong {
+  font-weight: bold;
+}
+.container .contents .usercomments blockquote {
+  font-style: italic;
+  background-color: #FFFFA8;
+}
+.container .contents .usercomments blockquote .author {
+  margin-top: 1em;
+}
+.container .contents .usercomments blockquote .author:before {
+  content: "- ";
+}
+.container .contents .links ul {
+  /* Make a list look like normal text, with each item on its own line */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 1em;
+}
+.container .contents .links ul li {
+  margin: 0;
+  padding: 0;
+}
+.container .contents .validators {
+  margin-top: 1em;
+  float: right
+}
+.container .contents .validators img {
+  border-style: solid;
+  border-color: #A4A400;
+  border-width: 2px;
+}
+.container .contents .validators pre {
+  line-height: 0;
+}
+
+.tooltip{
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.strike{
+  text-decoration: line-through;
+}
