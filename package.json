@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass rottenTomato/movie.scss rottenTomato/movie.css"
+    "compile:sass": "node-sass hw4/layout.scss hw4/layout.css"
   },
   "repository": {
     "type": "git",
